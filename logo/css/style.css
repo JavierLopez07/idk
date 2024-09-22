@@ -1,0 +1,76 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+.box{
+    background: blue;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.box2{
+padding: 20px;
+    /* padding:top right bottom left; */
+    background: REBECCAPURPLE;
+    margin-top: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+    /*todo lo  q se desborada lo oculta*/
+    border: 2px solid steelblue;
+}
+
+.box3{
+    background: steelblue;
+        border: 1px solid black;
+}
+
+  #mi-enlace {
+      font-size: 30px;
+      color: gray;
+      text-decoration: none;
+  }
+
+  /*me pone al enlace ese color si no visite la pagina*/
+
+  #mi-enlace:link {
+      color: red;
+  }
+
+  /*me pone al enlace ese color si ya visite la pagina*/
+
+  #mi-enlace:visited {
+      color: orangered;
+  }
+
+  .nav__links {
+      background: red;
+  }
+
+  /*evento target*/
+  .nav__links:target {
+      background-color: blue;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+aside {
+    width: 25%;
+    background: #ccc;
+    min-height: 500px;
+    float: left;
+    text-align: center;
+    line-height: 700px;
+}
+  .main {
+      width: 75%;
+      min-height: 500px;
+      float: left;
+      background-color: lemonchiffon;
+  }
+ 
+  
